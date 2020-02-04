@@ -1,6 +1,6 @@
 ## Install for development
 
-    mkvirtualenv --python=/usr/local/bin/python3 improviser
+    mkvirtualenv --python=/usr/local/bin/python3 flask-workshop
     pip install -r requirements.txt
     createdb workskop
     createuser workshop -sP
