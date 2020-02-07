@@ -24,7 +24,7 @@ CORS(
     origins="*",
     expose_headers="Authorization,Content-Type,Authentication-Token,Quick-Authentication-Token,Content-Range",
 )
-DATABASE_URI = os.getenv("DATABASE_URI", "postgresql://postgres:@localhost/workshop")
+DATABASE_URI = os.getenv("DATABASE_URI", "postgresql://workshop:workshop@localhost/workshop")
 app.config["DEBUG"] = False if not os.getenv("DEBUG") else True
 app.config["SECRET_KEY"] = (
     os.getenv("SECRET_KEY") if os.getenv("SECRET_KEY") else "super-secret"
