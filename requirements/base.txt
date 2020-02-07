@@ -8,3 +8,4 @@ Flask-Security-Too==3.3.2
 psycopg2-binary==2.7.6.1
 structlog==19.1.0
 more-itertools==6.0.0
+Werkzeug==0.16.1
