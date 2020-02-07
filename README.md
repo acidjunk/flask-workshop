@@ -2,7 +2,7 @@
 
     mkvirtualenv --python=/usr/local/bin/python3 flask-workshop
     pip install -r requirements.txt
-    createdb workskop
+    createdb workshop
     createuser workshop -sP
     psql -d workshop < workshop_initial.psql
     FLASK_APP=main flask run
